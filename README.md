@@ -102,7 +102,7 @@ Course Material: [Master the Coding Interview: Data Structures + Algorithms](htt
 1. The duration of the code execution can vary according to hardware such as the CPU and RAM that the computer has. 
 2. In most of the cases, especially for programs and apps in production, the app may run on a very different machine that is different from the code we execute on the laptop.
 3. Therefore, we have a relatively fair is to count the steps as the complexity and efficency of the code is as Big O notation.
-  <img src="./images/27-big_o_complexity_chart.png">
+  <img src="images/27-big_o_complexity_chart.png">
 
 ## 1.3. O(n)
 1. From the example of finding nemo in an array, the function will iterate through the array which gives a linear time complexity to fufill the request.
@@ -2599,7 +2599,7 @@ MyQueue.prototype.empty = function() {
 ## 8.1. Trees Introduction
 1. There are many types of trees for different use cases. 
 2. Tree structure is used everywhere such as a website for HTML DOM. Starting from `body` and down to the least child in the `document`.  
-    <img src="./images/tree_structure_overview.png" />
+    <img src="images/tree_structure_overview.png" />
 
 ## 8.2. Binary tree
 1. Each node of the tree can either have either 0, 1, or 2 child nodes.
@@ -2608,7 +2608,7 @@ MyQueue.prototype.empty = function() {
 4. When working with binary tree, we aim to look at a "full" tree, which means there's no gap in the tree.
    1. "**Perfect Binary Tree**" has all child nodes having 2 child nodes to the bottom. All the least nodes at the bottom are filled to the same level. 
    2. "**Filled Binary Tree**" each node has either 0 or 2 children rather than a single 1 child. 
-      <img src="./images/binary_trees.png" />
+      <img src="images/binary_trees.png" />
 5. Perfect Binary tree is very efficient and has an attribute that each layer of the tree has doubled the number of nodes of the previous layer.
    1. Layer 1 - 1 Node
    2. Layer 2 - 2 Nodes
